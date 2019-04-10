@@ -16,4 +16,10 @@ public class Test1
             {
                 Assert.assertTrue(false);
             }
+
+        @Test(enabled = false)
+        public void tsse()
+            {
+                Assert.assertTrue(false);
+            }
     }
