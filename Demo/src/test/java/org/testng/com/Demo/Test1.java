@@ -1,5 +1,6 @@
 package org.testng.com.Demo;
 
+import org.junit.Assert;
 import org.testng.annotations.Test;
 
 public class Test1
@@ -8,5 +9,11 @@ public class Test1
         public void te()
             {
                 System.out.println("Assss");
+            }
+            
+        @Test
+        public void tse()
+            {
+                Assert.assertTrue(false);
             }
     }
