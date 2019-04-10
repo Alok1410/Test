@@ -1,0 +1,12 @@
+package org.testng.com.Demo;
+
+import org.testng.annotations.Test;
+
+public class Test1
+    {
+        @Test
+        public void te()
+            {
+                System.out.println("Assss");
+            }
+    }
