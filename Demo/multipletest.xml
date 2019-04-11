@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="1" parallel="tests">
+	<test name="alok">
+		
+		<classes>
+			<class name="org.testng.com.Demo.alok">
+			</class>
+			<class name="org.testng.com.Demo.Test1">
+			</class>
+			<class name="org.testng.com.Demo.AppTest">
+			</class>
+		</classes>
+	</test>
+	<!-- <test name="FirefoxTest">
+		
+		<classes>
+			<class name="parallelTest.CrossBrowserScript">
+			</class>
+		</classes>
+	</test>
+	<test name="EdgeTest">
+		
+		<classes>
+			<class name="parallelTest.CrossBrowserScript">
+			</class>
+		</classes>
+	</test> -->
+</suite>

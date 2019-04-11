@@ -10,16 +10,16 @@ public class Test1
             {
                 System.out.println("Assss");
             }
-            
+
         @Test
         public void tse()
             {
                 Assert.assertTrue(false);
             }
-
+            
         @Test(enabled = false)
         public void tsse()
             {
-                Assert.assertTrue(false);
+                System.out.println("Assssss");
             }
     }
