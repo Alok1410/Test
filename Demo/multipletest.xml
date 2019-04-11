@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TestSuite" thread-count="1" parallel="tests">
+<suite name="TestSuite" thread-count="3" parallel="tests">
 	<test name="alok">
 		
 		<classes>
-			<class name="org.testng.com.Demo.alok">
-			</class>
-			<class name="org.testng.com.Demo.Test1">
-			</class>
-			<class name="org.testng.com.Demo.AppTest">
-			</class>
+			<class name="org.testng.com.Demo.alok" />
+			
+			<class name="org.testng.com.Demo.Test1" />
+			
+			<class name="org.testng.com.Demo.AppTest" />
+			
 		</classes>
 	</test>
 	<!-- <test name="FirefoxTest">

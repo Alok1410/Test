@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81" started-at="2019-04-10T20:27:44Z" finished-at="2019-04-10T20:27:44Z">
+  <suite name="TestSuite" duration-ms="103" started-at="2019-04-11T18:49:28Z" finished-at="2019-04-11T18:49:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81" started-at="2019-04-10T20:27:44Z" finished-at="2019-04-10T20:27:44Z">
+    <test name="alok" duration-ms="103" started-at="2019-04-11T18:49:28Z" finished-at="2019-04-11T18:49:28Z">
       <class name="org.testng.com.Demo.Test1">
-        <test-method status="PASS" signature="te()[pri:0, instance:org.testng.com.Demo.Test1@9f70c54]" name="te" duration-ms="26" started-at="2019-04-11T01:57:44Z" finished-at="2019-04-11T01:57:44Z">
+        <test-method status="PASS" signature="te()[pri:0, instance:org.testng.com.Demo.Test1@100fc185]" name="te" duration-ms="7" started-at="2019-04-12T00:19:28Z" finished-at="2019-04-12T00:19:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- te -->
-        <test-method status="FAIL" signature="tse()[pri:0, instance:org.testng.com.Demo.Test1@9f70c54]" name="tse" duration-ms="10" started-at="2019-04-11T01:57:44Z" finished-at="2019-04-11T01:57:44Z">
+        <test-method status="FAIL" signature="tse()[pri:0, instance:org.testng.com.Demo.Test1@100fc185]" name="tse" duration-ms="19" started-at="2019-04-12T00:19:28Z" finished-at="2019-04-12T00:19:28Z">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
@@ -32,17 +32,13 @@
 	at org.testng.TestRunner.privateRun(TestRunner.java:767)
 	at org.testng.TestRunner.run(TestRunner.java:617)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -50,6 +46,12 @@
           </reporter-output>
         </test-method> <!-- tse -->
       </class> <!-- org.testng.com.Demo.Test1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="org.testng.com.Demo.alok">
+        <test-method status="PASS" signature="s()[pri:0, instance:org.testng.com.Demo.alok@402f32ff]" name="s" duration-ms="25" started-at="2019-04-12T00:19:28Z" finished-at="2019-04-12T00:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s -->
+      </class> <!-- org.testng.com.Demo.alok -->
+    </test> <!-- alok -->
+  </suite> <!-- TestSuite -->
 </testng-results>

@@ -1,9 +1,11 @@
 package org.testng.com.Demo;
 
+import org.testng.annotations.Test;
+
 public class alok
     {
-
-        public static void main(String[] args)
+        @Test
+        public void s()
             {
                 System.out.println("Alok");
 
