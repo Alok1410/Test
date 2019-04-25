@@ -61,6 +61,16 @@ public class Extent extends aLOK
 
 	}
 
+	@Test
+	public void call2()
+	{
+		Logger = report.startTest("call2");
+		aLOK a = new aLOK();
+		a.testalok();
+		//Logger = report.startTest("testalok");
+
+	}
+
 	@AfterMethod
 	public void getResult(ITestResult result) throws IOException
 	{
@@ -71,6 +81,7 @@ public class Extent extends aLOK
 			Logger.log(LogStatus.FAIL, Logger.addScreenCapture(capture(d)) + "Test Failed");
 
 		}
+
 		/* public static String capture(WebDriver driver) throws IOException { File
 		 * scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputsType.FILE);
 		 * File Dest = new File("src/../ErrImages/" + System.currentTimeMillis() +

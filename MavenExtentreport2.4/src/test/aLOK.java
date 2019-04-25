@@ -4,12 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 
 public class aLOK
 {
 	static WebDriver d;
-	@Test
 	public void test()
 	{
 		String url = "https://www.google.com";
@@ -20,7 +18,7 @@ public class aLOK
 		d.close();
 
 	}
-	@Test
+
 	public void testalok()
 	{
 		Assert.assertEquals("an", "a");
